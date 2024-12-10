@@ -1,4 +1,3 @@
-
 // 宣告一個硬體計時器指標，初始值為空
 hw_timer_t * timer = NULL;
 
@@ -47,7 +46,7 @@ int counter = 0;
 // - 計數器加1
 // - 延遲2000毫秒(2秒)
 void loop() {
-    // Serial.println(counter);
-    // counter++;
-    // delay(2000);
-} 
+    Serial.println(counter);
+    counter++;
+    delay(2000);
+}
