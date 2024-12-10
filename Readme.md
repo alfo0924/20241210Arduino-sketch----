@@ -1,5 +1,7 @@
 
-## sketch_dec10a.ino | 程式運作原理解析
+## sketch_dec10a.ino 
+
+### 程式運作原理解析
 
 **變數定義部分**
 - `ledPin`: 定義LED連接的腳位為4
